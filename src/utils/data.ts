@@ -1,6 +1,6 @@
 const getGeneral = () => {
     return {
-        "Project": "SKL Project + Narwhal CX",
+        "Project": "SKL Project > API",
         "Owner": "Im_JVallejo",
         "Host": "Not exist for the moment",
         "Description": "About me https://sklconnect.com/",

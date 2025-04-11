@@ -1,12 +1,14 @@
 import { Router, Request, Response } from 'express';
+import { getGeneral } from '../utils/data';
 
 const router: Router = Router();
 
 router.get('/', (req: Request, res: Response) => {
-    res.send('¡Hola! Bienvenido a la ruta principal. Puedes acceder a otras rutas como /search o /delete-bg para más funcionalidades. Para saber más sobre mi proyecto NextSKL, visita nuestra documentación o contáctanos.');
+    const generalInfo = getGeneral();
+    res.json(generalInfo);
 });
 
 export default {
     path: '/',
     router,
-}
+};

@@ -1,0 +1,35 @@
+{
+  "name": "next_skl_api",
+  "version": "1.0.0",
+  "description": "Continuacion del Proyecto Next SKL API pero como base en TS, recuerden: las malas ideas siempre son las mejores",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn --project tsconfig.json src/index.ts"
+  },
+  "keywords": [
+    "NextSKL",
+    "Narwhal",
+    "CX",
+    "SKL",
+    "API"
+  ],
+  "author": "Im_JVallejo",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/axios": "^0.9.36",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@imgly/background-removal-node": "^1.4.5",
+    "axios": "^1.8.4",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "googleapis": "^144.0.0",
+    "path": "^0.12.7"
+  }
+}
